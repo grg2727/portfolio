@@ -201,7 +201,7 @@ const Index = () => {
               <Button variant="hero-outline" size="lg" asChild>
                 <a href="https://drive.google.com/file/d/19shBB1MhHs9LXpvUgr0nrYsJsq-KTEt9/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
-                  Resume
+                  See My Resume
                 </a>
               </Button>
             </div>
