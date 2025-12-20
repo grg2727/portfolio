@@ -6,9 +6,9 @@ export function Footer() {
       <div className="container-main py-12 md:py-16">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Alien Gurung. All rights reserved.
+            {/* © {new Date().getFullYear()} Alien Gurung. All rights reserved. */}
           </div>
-          <div className="flex items-center gap-6">
+          {/* <div className="flex items-center gap-6">
             <a
               href="mailto:gurungalien21@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -34,7 +34,7 @@ export function Footer() {
             >
               <Github className="h-5 w-5" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

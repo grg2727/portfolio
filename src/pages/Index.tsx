@@ -192,13 +192,13 @@ const Index = () => {
             </div>
 
             <div className="flex flex-wrap gap-4 opacity-0 animate-fade-up stagger-4">
-              <Button variant="hero" size="lg" asChild>
+              <Button variant="hero-outline" size="lg" asChild>
                 <a href="#contact">
                   Contact Me
                   <ArrowRight className="h-4 w-4" />
                 </a>
               </Button>
-              <Button variant="hero-outline" size="lg" asChild>
+              <Button variant="hero" size="lg" asChild>
                 <a href="https://drive.google.com/file/d/19shBB1MhHs9LXpvUgr0nrYsJsq-KTEt9/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
                   See My Resume
@@ -466,10 +466,10 @@ const Index = () => {
               </div>
 
               <Button variant="hero" size="lg" asChild className="mt-4">
-                <Link to="/resume">
+                <a href="https://drive.google.com/file/d/19shBB1MhHs9LXpvUgr0nrYsJsq-KTEt9/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
                   See My Resume
-                </Link>
+                </a>
               </Button>
             </div>
           </div>
