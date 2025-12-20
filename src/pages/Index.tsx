@@ -199,10 +199,10 @@ const Index = () => {
                 </a>
               </Button>
               <Button variant="hero-outline" size="lg" asChild>
-                <Link to="/resume">
+                <a href="https://drive.google.com/file/d/19shBB1MhHs9LXpvUgr0nrYsJsq-KTEt9/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
-                  See My Resume
-                </Link>
+                  Resume
+                </a>
               </Button>
             </div>
           </div>
