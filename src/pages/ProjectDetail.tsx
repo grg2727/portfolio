@@ -3,6 +3,7 @@ import { ArrowLeft, CheckCircle2 } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { getProjectBySlug, projects } from "@/data/projects";
+import { useLayoutEffect } from "react";
 
 const ProjectDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -11,6 +12,14 @@ const ProjectDetail = () => {
   if (!project) {
     return <Navigate to="/" replace />;
   }
+
+    useLayoutEffect(() => {
+    // scroll the main document
+    window.scrollTo(0, 0);
+
+    // also scroll the actual scrolling element (covers some Safari/layout cases)
+    document.scrollingElement?.scrollTo(0, 0);
+  }, [slug]);
 
   const currentIndex = projects.findIndex((p) => p.slug === slug);
   const nextProject = projects[(currentIndex + 1) % projects.length];

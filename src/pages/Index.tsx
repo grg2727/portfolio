@@ -52,11 +52,11 @@ const experiences = [
     intro: "Part of Shipt's core mobile team focused on shopping and browsing, building features and experiments that improve basket-building for millions of members.",
     achievements: [
       "Ratings & Reviews: Implemented Ratings & Reviews across the Shipt marketplace, surfacing rating distributions and review content on product cards and product detail pages; post-launch data showed an estimated 3.2% increase in add-to-cart rate on products with visible ratings.",
-      "Shopping Lists: Led the effort to turn a hackathon prototype into a production feature that lets members create andreuse shopping lists to speed up re-ordering. Closed gaps in design and backend flows, built a dedicated screen for list creation and list-based cart building, and worked with backend engineers to define the cart APIs needed for this experience.",
+      "Shopping Lists: Led the effort to turn a hackathon prototype into a production feature that lets members create and reuse shopping lists to speed up re-ordering. Closed gaps in design and backend flows, built a dedicated screen for list creation and list-based cart building, and worked with backend engineers to define the APIs needed for this experience.",
       "Usuals & Auto Add to Cart: Improved repeat ordering by enabling members to create a Usuals list from their Buy Again items and schedule it to auto–add to cart on a weekly, bi-weekly, or monthly cadence, with address selection to ensure the basket is created for the correct delivery location; this feature evolved from an experiment into a core experience after driving an estimated 5% increase in add-to-cart rate and 1.2% lift in order volume.",
-      "Global Search: Part of the team that shipped a universal search experience where a single query returns products from all retailers available at a member’s address, making it easier to build multi-store baskets. Post-launch data showed a 2.2% increase in members placing orders from more than one store.",
+      "Multi-Retailer Search: Part of the team that shipped a universal search experience where a single query returns products from all retailers available at a member’s address, making it easier to build multi-store baskets. Post-launch data showed a 2.2% increase in members placing orders from more than one store.",
       "Address Gate: Contributed to reworking the onboarding flow for Target Circle 360 members signing into Shipt via Target SSO by using ZIP codes from deep links to personalize the global home screen and let users browse immediately, reducing early-session drop-off by 6%.",
-      "Global Category Landing Screen: Shipped a global category landing screen that centralizes top-level categories and curated collections, making it easier for members to browse instead of relying only on search; integrated navigation and CMS-driven category data, contributing to an estimated 0.3% increase in order volume from category flows.",
+      "Multi-Retailer Category Landing Screen: Shipped a global category landing screen that centralizes top-level categories and curated collections, making it easier for members to browse instead of relying only on search; integrated navigation and CMS-driven category data, contributing to an estimated 0.3% increase in order volume from category flows",
       "Experience Refresh: Contributed to Shipt’s Experience Refresh homepage redesign, which aimed to reduce guest drop-off and improve engagement by introducing a new CMS-driven product shelf with configurable horizontal and vertical carousels that was later scaled as a full experiment.",
       "Text to Cart: Worked on the Text to Cart feature that lets members type what they need in natural language and add all suggested products to their cart with one click. The project won the Best Use of AI category.",
       "Migration & Tech Debt: Worked on multiple frontend migrations, including JavaScript to TypeScript, class components to functional components with hooks, Enzyme to React Native Testing Library, Redux to React Query to Osmosis for data fetching and state management, and Reanimated to Reanimated V2, which improved type safety, test coverage, and overall app performance and maintainability.",
@@ -69,12 +69,12 @@ const experiences = [
     logo: shiptLogo,
     companyDescription: "Same-day delivery marketplace owned by Target",
     location: "Web Development",
-    period: "Jun 2021 – Aug 2021",
+    period: "Jun 2020 – Aug 2020",
     intro: "Worked on Talent Captains, Shipt's internal recruiting web app for interview scheduling and candidate tracking.",
     achievements: [
+      "Worked on Talent Captains, an in-house recruiting web application used to schedule interviews, track candidates, and coordinate interview panels.",
       "Shipped features such as interview scheduling, interviewer availability, panel planning, notes, and candidate status tracking, helping reduce manual coordination for recruiting and hiring teams.",
-      "Built UI components in React using TypeScript with Material UI, integrated with a GraphQL backend using Apollo Client, and participated in deployment to Google Cloud Platform (GCP).",
-      "Technologies used: Typescript, React.js, Material UI, Apollo Client (GraphQL), GCP",
+      "Technologies used: TypeScript, React.js, Material UI, Apollo client, Google Cloud Platform",
     ]
   }
 ];
@@ -83,49 +83,49 @@ const projects = [
     {
     slug: "ratings-and-reviews",
     title: "Ratings & Reviews",
-    description: "Implemented ratings and reviews across the marketplace with rating distributions and infinite scroll, achieving 3.2% increase in add-to-cart rate.",
+    description: "Shipped Ratings & Reviews across the marketplace, surfacing star ratings, rating distribution,and review content, driving an estimated 3.2% lift in add-to-cart post-launch.",
     tech: ["React Native", "Infinite Scroll", "API Integration"],
   },
      {
     slug: "lists-and-usuals",
     title: "Shopping Lists",
-    description: "Turned hackathon prototype into production features for reusable lists and scheduled auto-add, driving 5% lift in add-to-cart rate.",
+    description: "Led the effort to turn a hackathon prototype into a production feature that lets members create and reuse shopping lists to speed up re-ordering. Closed gaps in design and backend flows, built a dedicated screen for list creation and list-based cart building, and worked with backend engineers to define the APIs needed for this experience..",
     tech: ["React Native", "Scheduling", "State Management"],
   },
    {
     slug: "usuals-and-auto-atc",
     title: "Usuals and Auto Add to Cart",
-    description: "Improved repeat ordering by enabling members to create a Usuals list from their Buy Again items and schedule it to auto–add to cart on a weekly, bi-weekly, or monthly cadence, with address selection to ensure the basket is created for the correct delivery location; this feature evolved from an experiment into a core experience after driving an estimated 5% increase in add-to-cart rate and 1.2% lift in order volume.",
+    description: "Improved repeat ordering by enabling members to create a Usuals list from their Buy Again items and schedule it to auto–add to cart on a weekly, bi-weekly, or monthly cadence, with address selection to ensure the basket is created for the correct delivery location; this feature evolved from an experiment into a core experience after driving an estimated 2.1% increase in add-to-cart rate and 1.3% lift in order volume.",
     tech: ["React Native", "Scheduling", "State Management"],
   },
     {
     slug: "global-search",
-    title: "Global Search",
-    description: "Part of the team that shipped a universal search experience where a single query returns products from all retailers available at a member’s address, making it easier to build multi-store baskets. Post-launch data showed a 2.2% increase in members placing orders from more than one store.",
+    title: "Multi-Retailer Search",
+    description: "Part of the team that shipped a global search experience where a single query returns products from all retailers available at a member’s address, making it easier to build multi-store baskets. Post-launch data showed a 2.2% increase in members placing orders from more than one store.",
     tech: ["React Native", "Pagination", "Analytics"],
   },
    {
     slug: "address-gate",
     title: "Address gate",
-    description: "Contributed to reworking the onboarding flow for Target Circle 360 members signing into Shipt via Target SSO by using ZIP codes from deep links to personalize the global home screen and let users browse immediately, reducing early-session drop-off by 6%.",
+    description: "Contributed to reworking the onboarding flow for Target Circle 360 members signig into Shipt via Target SSO by using ZIP codes from deep links to personalize the global home screen and let users browse immediately, reducing early-session drop-off by 6%.",
     tech: ["React Native", "Pagination", "Analytics"],
   },
    {
     slug: "global-category-landing-screen",
-    title: "Global Category Landing Screen",
-    description: "Shipped a global category landing screen that centralizes top-level categories and curated collections, making it easier for members to browse instead of relying only on search; integrated navigation and CMS-driven category data, contributing to an estimated 0.3% increase in order volume from category flows.",
+    title: "Multi-Retailer Category Landing Screen",
+    description: "Shipped a multi-retailer category landing screen that centralizes top-level categories and curated collections, making it easier for members to browse instead of relying only on search; integrated navigation and CMS-driven category data, contributing to an estimated 0.3% increase in order volume from category flows.",
     tech: ["React Native", "Pagination", "Analytics"],
   },
   {
     slug: "experience-refresh-product-shelf-v2",
     title: "Experience Refresh Product Shelf",
-    description: "Contributed to Shipt’s Experience Refresh homepage redesign, which aimed to reduce guest drop-off and improve engagement by introducing a new CMS-driven product shelf with configurable horizontal and vertical carousels that was later scaled as a full experiment.",
+    description: "Contributed to Shipt’s Experience Refresh homepage redesign to reduce guest drop-off and improve engagement by introducing a CMS-driven product shelf with horizontal scroll and configurable product card layouts, later scaled into a full experiment..",
     tech: ["React Native", "CMS", "TypeScript", "A/B Testing"],
   },
   {
     slug: "text-to-cart-ai",
     title: "Text to Cart (AI Hackathon)",
-    description: "Worked on the Text to Cart feature that lets members type what they need in natural language and add all suggested products to their cart with one click. The project won the Best Use of AI category.",
+    description: "Worked on the Text to Cart feature that lets members type what they need in natural language and add all suggested products to their cart with one click. The project won the Best Use of AI category..",
     tech: ["AI/ML", "React Native", "Natural Language"],
   }
 ];
@@ -199,7 +199,7 @@ const Index = () => {
                 </a>
               </Button>
               <Button variant="hero" size="lg" asChild>
-                <a href="https://drive.google.com/file/d/19shBB1MhHs9LXpvUgr0nrYsJsq-KTEt9/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1dQ-yd_5gEYipO3_4GzIx4BHYFvHp_XUX/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
                   See My Resume
                 </a>
@@ -361,8 +361,8 @@ const Index = () => {
                     </span>
                   ))}
                 </div> */}
-                <div className="mt-4 flex items-center gap-2 text-primary text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                  View case study
+                <div className="mt-4 flex items-center gap-2 text-primary text-sm font-medium  transition-opacity">
+                  See Details
                   <ArrowRight className="h-4 w-4" />
                 </div>
               </Link>
@@ -466,7 +466,7 @@ const Index = () => {
               </div>
 
               <Button variant="hero" size="lg" asChild className="mt-4">
-                <a href="https://drive.google.com/file/d/19shBB1MhHs9LXpvUgr0nrYsJsq-KTEt9/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1dQ-yd_5gEYipO3_4GzIx4BHYFvHp_XUX/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
                   See My Resume
                 </a>

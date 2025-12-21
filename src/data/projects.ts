@@ -14,7 +14,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     slug: "experience-refresh-product-shelf-v2",
-    title: "Experience Refresh – Product Shelf v2",
+    title: "Experience Refresh",
     shortDescription: "Redesigned the Shipt homepage product shelf experience with new carousel behavior and configurable horizontal/vertical card layouts, making it easier for members to discover relevant items and start their shop.",
     overview: "As part of a broader Shipt homepage 'Experience Refresh,' we redesigned the product shelves to make it easier for members to discover relevant items and start building a basket. I focused on Product Shelf v2, implementing a new CMS-driven shelf with configurable horizontal and vertical carousels.",
     problem: "The existing shelves were functional but rigid. Cards didn't always scroll in a way that felt natural, and the layout made it hard to highlight different types of content. We needed a more flexible shelf that could power different experiments and better showcase products without overwhelming the user.",
@@ -40,12 +40,12 @@ export const projects: Project[] = [
   },
   {
     slug: "global-search",
-    title: "Global Search",
-    shortDescription: "Part of the team that shipped a universal search experience in the Shipt app where a single query returns products from all retailers available at a member's address, driving a 2.2% increase in members placing orders from more than one store.",
+    title: "Multi-Retailer Search",
+    shortDescription: "Part of the team that shipped a multi-retailer search experience in the Shipt app where a single query returns products from all retailers available at a member's address, driving a 2.2% increase in members placing orders from more than one store.",
     overview: "Shipt members can shop from multiple retailers, but the search experience used to make that harder than it needed to be. I was part of the team that shipped a universal search experience where a single query returns products from all retailers available at a member's address, in one integrated view.",
     problem: "Members searching across multiple retailers needed a clear way to see which stores had matches and browse products per store without the screen becoming cluttered.",
     responsibilities: [
-      "Built the store list header and store result cards on the Global Search screen",
+      "Built the store list header and store result cards on the multi-retailer search screen",
       "Rendered product shelves inside each store card, supporting different layouts and empty/loading states",
       "Coordinated ownership with a teammate to avoid overlap and minimize integration risk",
     ],
@@ -64,7 +64,7 @@ export const projects: Project[] = [
     slug: "ratings-and-reviews",
     title: "Ratings & Reviews",
     shortDescription: "Implemented Ratings & Reviews across the Shipt marketplace, surfacing rating distributions and review content on product detail pages; post-launch data showed an estimated 3.2% increase in add-to-cart rate on products with visible ratings.",
-    overview: "I implemented core Ratings & Reviews experiences across the Shipt marketplace, surfacing rating distributions and review content on product cards and product detail pages so members can make more informed decisions.",
+    overview: "Built the Ratings & Reviews experience to display ratings and review content across marketplace products, surfacing clear trust signals like star ratings, rating breakdowns, and review lists on product cards and product detail pages so shoppers can make more confident decisions.",
     problem: "Shipt members had limited information when deciding whether to try new or unfamiliar products, especially long-tail items and smaller brands. Without ratings or review content, it was harder to build trust and confidence.Members had limited trust signals when evaluating unfamiliar products, and the app lacked a consistent, scalable way to view ratings and review content.",
     responsibilities: [
       "Wrote a technical design document and translated it into a dependency-aware ticket plan to enable parallel work",
@@ -86,8 +86,8 @@ export const projects: Project[] = [
    {
     slug: "usuals-and-auto-atc",
     title: "Usuals & Auto Add to Cart",
-    shortDescription: "Implemented Ratings & Reviews across the Shipt marketplace, surfacing rating distributions and review content on product detail pages; post-launch data showed an estimated 3.2% increase in add-to-cart rate on products with visible ratings.",
-    overview: "Improved repeat ordering by enabling members to create a Usuals list from their Buy Again items and schedule it to auto–add to cart on a weekly, bi-weekly, or monthly cadence, with address selection to ensure the basket is created for the correct delivery location; this feature evolved from an experiment into a core experience after driving an estimated 5% increase in add-to-cart rate and 1.2% lift in order volume.",
+    shortDescription: "Implemented Ratings & Reviews across the Shipt marketplace, surfacing rating distributions and review content on product detail pages; post-launch data showed an estimated 2.1% increase in add-to-cart rate on products with visible ratings.",
+    overview: "Improved repeat ordering by enabling members to create a Usuals list from their Buy Again items and schedule it to auto–add to cart on a weekly, bi-weekly, or monthly cadence, with address selection to ensure the basket is created for the correct delivery location; this feature evolved from an experiment into a core experience after driving an estimated 2.1% increase in add-to-cart rate and 1.3% lift in order volume.",
     problem: "Repeat ordering took too much effort because members had to manually rebuild the same baskets over and over, and timing those orders for recurring needs wasn’t seamless.",
     responsibilities: [
       "Built the experience that lets members generate a Usuals list from prior purchases and set a recurring auto–add schedule (weekly / bi-weekly / monthly)",
@@ -101,7 +101,7 @@ export const projects: Project[] = [
     ],
     impact: [
       "Helped evolve the feature from an experiment into a core experience",
-      "Contributed to an estimated 5% increase in add-to-cart rate and 1.2% lift in order volume by reducing friction for repeat shoppings"
+      "Contributed to an estimated 2.1% increase in add-to-cart rate and 1.3% lift in order volume by reducing friction for repeat shoppings"
     ],
     learnings: "This project reinforced how much perceived quality depends on details like loading states, scroll behavior, and component reuse. It also highlighted how surfacing the right information at the right time can change user behavior without adding friction."
   },
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     slug: "address-gate",
     title: "Address gate",
     shortDescription: "Implemented Ratings & Reviews across the Shipt marketplace, surfacing rating distributions and review content on product detail pages; post-launch data showed an estimated 3.2% increase in add-to-cart rate on products with visible ratings.",
-    overview: "I implemented core Ratings & Reviews experiences across the Shipt marketplace, surfacing rating distributions and review content on product cards and product detail pages so members can make more informed decisions.",
+    overview: "Improved the onboarding experience for Target Circle 360 members signing in via Target SSO by using ZIP codes from deep links to personalize the home screen and enable immediate browsing, helping reduce early-session drop-off by 6%.",
     problem: "New members coming from partner sign-in flows were dropping off during address setup, reducing early engagement in the shopping experience.",
     responsibilities: [
       "Implemented improvements to preserve and validate location information during onboarding",
@@ -129,12 +129,12 @@ export const projects: Project[] = [
   },
    {
     slug: "global-category-landing-screen",
-    title: "Global Category Landing Screen",
+    title: "Multi-Retailer Category Landing Screen",
     shortDescription: "Implemented Ratings & Reviews across the Shipt marketplace, surfacing rating distributions and review content on product detail pages; post-launch data showed an estimated 3.2% increase in add-to-cart rate on products with visible ratings.",
-    overview: "Shipped a global category landing screen that centralizes top-level categories and curated collections, making it easier for members to browse instead of relying only on search; integrated navigation and CMS-driven category data, contributing to an estimated 0.3% increase in order volume from category flows.",
+    overview: "Shipped a multi-retailer category landing screen that centralizes top-level categories and curated collections, making it easier for members to browse instead of relying only on search; integrated navigation and CMS-driven category data, contributing to an estimated 0.3% increase in order volume from category flows.",
     problem: "A category experiment needed to be rerun with a redesigned, CMS-driven header system, including multiple visual variants and a polished animation effect.",
     responsibilities: [
-      "Built five header UI variations (including image-based layouts) while CMS data contracts were still evolving",
+      "Built five header UI variations (including image-based layouts)",
       "Introduced a new CMS content type (“header banner”) alignment into the UI layer with flexible fallbacks",
       "Implemented animation using React Native’s Animated API"
     ],
