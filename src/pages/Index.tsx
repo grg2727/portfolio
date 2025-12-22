@@ -199,7 +199,7 @@ const Index = () => {
                 </a>
               </Button>
               <Button variant="hero" size="lg" asChild>
-                <a href="https://drive.google.com/file/d/1hiZhfcBCHx1M3kLlpXB9xNe7LOngqQix/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1Rg6FW2nCVWgBC5Tei-1Eqkl3VJDTplDp/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
                   See My Resume
                 </a>
@@ -466,7 +466,7 @@ const Index = () => {
               </div>
 
               <Button variant="hero" size="lg" asChild className="mt-4">
-                <a href="https://drive.google.com/file/d/1hiZhfcBCHx1M3kLlpXB9xNe7LOngqQix/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1Rg6FW2nCVWgBC5Tei-1Eqkl3VJDTplDp/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
                   See My Resume
                 </a>
