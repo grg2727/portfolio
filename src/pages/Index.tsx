@@ -48,7 +48,7 @@ const experiences = [
     logo: shiptLogo,
     companyDescription: "Same-day delivery marketplace owned by Target",
     location: "Mobile / React Native",
-    period: "Jan 2021 – Present",
+    period: "Jan 2022 – Present",
     intro: "Part of Shipt's core mobile team focused on shopping and browsing, building features and experiments that improve basket-building for millions of members.",
     achievements: [
       "Ratings & Reviews: Implemented Ratings & Reviews across the Shipt marketplace, surfacing rating distributions and review content on product cards and product detail pages; post-launch data showed an estimated 3.2% increase in add-to-cart rate on products with visible ratings.",
@@ -69,7 +69,7 @@ const experiences = [
     logo: shiptLogo,
     companyDescription: "Same-day delivery marketplace owned by Target",
     location: "Web Development",
-    period: "Jun 2020 – Aug 2020",
+    period: "Jun 2021 – Aug 2021",
     intro: "Worked on Talent Captains, Shipt's internal recruiting web app for interview scheduling and candidate tracking.",
     achievements: [
       "Worked on Talent Captains, an in-house recruiting web application used to schedule interviews, track candidates, and coordinate interview panels.",
@@ -199,7 +199,7 @@ const Index = () => {
                 </a>
               </Button>
               <Button variant="hero" size="lg" asChild>
-                <a href="https://drive.google.com/file/d/1dQ-yd_5gEYipO3_4GzIx4BHYFvHp_XUX/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1hiZhfcBCHx1M3kLlpXB9xNe7LOngqQix/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
                   See My Resume
                 </a>
@@ -466,7 +466,7 @@ const Index = () => {
               </div>
 
               <Button variant="hero" size="lg" asChild className="mt-4">
-                <a href="https://drive.google.com/file/d/1dQ-yd_5gEYipO3_4GzIx4BHYFvHp_XUX/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1hiZhfcBCHx1M3kLlpXB9xNe7LOngqQix/view?usp=sharing" target="_blank" rel="noreferrer">
                   <Download className="h-4 w-4" />
                   See My Resume
                 </a>
