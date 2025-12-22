@@ -16,7 +16,7 @@ export const projects: Project[] = [
     slug: "experience-refresh-product-shelf-v2",
     title: "Experience Refresh",
     shortDescription: "Redesigned the Shipt homepage product shelf experience with new carousel behavior and configurable horizontal/vertical card layouts, making it easier for members to discover relevant items and start their shop.",
-    overview: "As part of a broader Shipt homepage 'Experience Refresh,' we redesigned the product shelves to make it easier for members to discover relevant items and start building a basket. I focused on Product Shelf v2, implementing a new CMS-driven shelf with configurable horizontal and vertical carousels.",
+    overview: "As part of a broader Shipt homepage 'Experience Refresh,' we redesigned the product shelves to make it easier for members to discover relevant items and start building a basket. I focused on Product Shelf v2, introducing a CMS-driven product shelf with horizontal scrolling and configurable product card layouts",
     problem: "The existing shelves were functional but rigid. Cards didn't always scroll in a way that felt natural, and the layout made it hard to highlight different types of content. We needed a more flexible shelf that could power different experiments and better showcase products without overwhelming the user.",
     responsibilities: [
       "Implemented the new Product Shelf V2 component used on the Shipt homepage",
@@ -177,7 +177,7 @@ export const projects: Project[] = [
     title: "Text to Cart (AI Hackathon)",
     shortDescription: "Worked on an AI-powered Text to Cart feature in the Shipt app that lets members type what they need in natural language and add suggested products to their cart with one click. This hackathon project won the Best Use of AI category.",
     overview: "Worked on an AI-powered Text to Cart feature in the Shipt app that lets members type what they need in natural language and add all suggested products to their cart with one click.",
-    problem: "Traditional search requires multiple queries and manual browsing; members needed a faster way to turn natural-language intent into cart actions..",
+    problem: "Traditional search requires multiple queries and manual browsing; members needed a faster way to turn natural-language intent into cart actions.",
     responsibilities: [
       "Rendered AI-generated product shelves from backend APIs",
       "Implemented default product selection per shelf and controls to skip/change selections",
